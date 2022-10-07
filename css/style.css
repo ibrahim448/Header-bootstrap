@@ -1,0 +1,117 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.active{
+    color: #565E64;
+}
+.active:hover{
+    color: #565E64;
+}
+.divider{
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.form-control {
+    background-color: #ffffff00 !important;
+}
+.form-control-dark{
+    border-color: #dddddd7a;
+}
+.form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+}
+
+.fifth-header-menu ul li a{
+  font-size: 14px;
+}
+.dropdown-img{
+  border-radius: 50%;
+}
+.fifth-input{
+  height: 35px;
+}
+
+.sixth-header-dropdown-menu .active:hover{
+  color: #fff;
+}
+.seventh-header-search{
+  padding-right: 0;
+}
+
+
+
+@media only screen and (max-width:504px) {
+    .seventh-header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .seventh-header-button{
+      margin-left: 0px !important;
+    }
+}
+@media only screen and (max-width:767.98px) {
+    .brand{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .menu{
+        margin: 0 auto;
+    }
+  .container{
+    width: 95%;
+  }
+  .third-header, .forth-header, .forth-header-brand-image, .forth-header-search{
+    flex-direction: column;
+    align-items: center;
+  }
+  .forth-header-menu ul, .fifth-header-menu ul{
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media only screen and (max-width:991.98px) {
+   
+  .forth-header, .forth-header-brand-image, .forth-header-form, .fifth-header, .fifth-header-search, .seventh-header-second-part, .eight-header, .eight-header-second-part{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .eight-header-menu{
+    margin-left: 0px !important;
+  }
+  .eight-header-search{
+    margin-right: 0px !important;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .seventh-header-brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .forth-header-form{
+    gap: 20px;
+  }
+  .seventh-header-search{
+    margin-left: 0px !important;
+    width: 100%;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:991.98px) {
+  .eight-header-menu{
+    margin-top: 20px;
+  }
+  
+}
